@@ -1,0 +1,8 @@
+addi x10, x0, 0b100 #toggle 3rd bit
+addi x5,x0,0b11111111
+xor x5,x10,x5
+
+add a1,x5,x0
+li a0,1
+
+ecall
